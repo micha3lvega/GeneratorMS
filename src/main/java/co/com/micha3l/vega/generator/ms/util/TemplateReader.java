@@ -16,7 +16,7 @@ public class TemplateReader {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(TemplateReader.class);
 
-	public void read(Template template) {
+	public static void read(Template template) {
 
 		LOGGER.trace("template: {}", template.getAbsolutName());
 
